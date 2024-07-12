@@ -21,16 +21,16 @@ Rental cars es una web donde los usuarios pueden rentar los autos de nuestro cat
 3. Crea el archivo .env y agrega las siguientes variables de entorno:
 ```
 NEXT_PUBLIC_FRONTEND_STORE_URL = http://localhost:3000
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=yourClerkPublishableKey
-CLERK_SECRET_KEY=yourClerkSecretKey
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY = yourClerkPublishableKey
+CLERK_SECRET_KEY = yourClerkSecretKey
 
-NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
-NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+NEXT_PUBLIC_CLERK_SIGN_IN_URL = /sign-in
+NEXT_PUBLIC_CLERK_SIGN_UP_URL = /sign-up
 
-DATABASE_URL=yourDatabaseUrl
+DATABASE_URL = yourDatabaseUrl
 
-UPLOADTHING_SECRET=yourUploadthingUrl
-UPLOADTHING_APP_ID=yourUploadthingId
+UPLOADTHING_SECRET = yourUploadthingUrl
+UPLOADTHING_APP_ID = yourUploadthingId
 
 STRIPE_API_KEY = yourStripeapiKey
 STRIPE_SECRET_KEY = yourStripeSecretKey
