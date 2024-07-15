@@ -1,5 +1,5 @@
 # Rental Cars
-Rental cars es una web donde los usuarios pueden rentar los autos de nuestro catálogo en línea
+Rental cars es una web creada para rentar autos en línea
 
 ### Vista en vivo
 [Proximamente](#)
@@ -35,3 +35,4 @@ UPLOADTHING_APP_ID = yourUploadthingId
 STRIPE_API_KEY = yourStripeapiKey
 STRIPE_SECRET_KEY = yourStripeSecretKey
 ```
+4. Inicia el servidor de pruebas `npm run dev`
