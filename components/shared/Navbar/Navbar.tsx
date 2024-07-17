@@ -22,8 +22,14 @@ export default function Navbar() {
         </Link>
 
         <div className="flex justify-center items-center gap-7">
-          <Link href="/dashboard">Dashboard</Link>
-          <Link href="/cars">List of cars</Link>
+          {
+            userId
+              ? (
+                <Link href="/dashboard">Dashboard</Link>
+              )
+              : null
+          }
+          <Link href="/cars">All cars</Link>
           {userId ? (
             <>
               <Link href="/favorites">
