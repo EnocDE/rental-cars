@@ -9,21 +9,21 @@ import IconWithText from "../IconWithText/IconWithText";
 export default function Navbar() {
   const { userId } = useAuth();
   return (
-    <div className="max-w-5xl py-5 mx-auto">
-      <div className="sm:justify-between flex gap-5 flex-wrap justify-center ">
-        <Link href="/" className="flex items-center justify-center gap-2">
+    <div className="mx-auto py-5 max-w-5xl">
+      <div className="flex flex-wrap justify-center sm:justify-between gap-5">
+        <Link href="/" className="flex justify-center items-center gap-2">
           <Image
             src="/logo.svg"
             alt="Logo rental cars"
             width={50}
             height={50}
           />
-          <span className="text-xl font-bold">Rental Cars</span>
+          <span className="font-bold text-xl">Rental Cars</span>
         </Link>
 
-        <div className="flex items-center justify-center gap-7">
+        <div className="flex justify-center items-center gap-7">
           <Link href="/dashboard">Dashboard</Link>
-          <Link href="/cars">Cars List</Link>
+          <Link href="/cars">List of cars</Link>
           {userId ? (
             <>
               <Link href="/favorites">
